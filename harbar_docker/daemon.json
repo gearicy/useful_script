@@ -1,0 +1,10 @@
+{
+
+    "insecure-registries":["nginx.3cai.co:80"],
+    "registry-mirrors": [
+        "http://192.168.3.66:8085",
+        "https://docker.m.daocloud.io",
+        "https://mirror.baidubce.com",
+        "http://hub-mirror.c.163.com"
+      ]
+}

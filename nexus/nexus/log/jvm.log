@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='1' time_ms='1724154246435'>
+<vm_version>
+<name>
+OpenJDK 64-Bit Server VM
+</name>
+<release>
+17.0.12+7-LTS
+</release>
+<info>
+OpenJDK 64-Bit Server VM (17.0.12+7-LTS) for linux-amd64 JRE (17.0.12+7-LTS), built on Jul 16 2024 00:00:00 by &quot;mockbuild&quot; with gcc 8.5.0 20210514 (Red Hat 8.5.0-18)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-Dinstall4j.jvmDir=/usr/lib/jvm/java-17-openjdk-17.0.12.0.7-2.el8.x86_64 -Dexe4j.moduleName=/opt/sonatype/nexus/bin/nexus -XX:+UnlockDiagnosticVMOptions -Dinstall4j.launcherId=246 -Dinstall4j.swt=false -Di4jv=0 -Di4jv=0 -Di4jv=0 -Di4jv=0 -Di4jv=0 -Xms2703m -Xmx2703m -XX:MaxDirectMemorySize=2703m -Djava.util.prefs.userRoot=/nexus-data/javaprefs -XX:+UnlockDiagnosticVMOptions -XX:+LogVMOutput -XX:LogFile=../sonatype-work/nexus3/log/jvm.log -XX:-OmitStackTraceInFastThrow -Dkaraf.home=. -Dkaraf.base=. -Dkaraf.etc=etc/karaf -Djava.util.logging.config.file=etc/karaf/java.util.logging.properties -Dkaraf.data=../sonatype-work/nexus3 -Dkaraf.log=../sonatype-work/nexus3/log -Djava.io.tmpdir=../sonatype-work/nexus3/tmp -Dkaraf.startLocalConsole=false -Djdk.tls.ephemeralDHKeySize=2048 --add-reads=java.xml=java.logging --add-exports=java.base/org.apache.karaf.specs.locator=java.xml,ALL-UNNAMED --patch-module=java.base=./lib/endorsed/org.apache.karaf.specs.locator-4.3.9.jar --patch-module=java.xml=./lib/endorsed/org.apache.karaf.specs.java.xml-4.3.9.jar --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED --add-exports=java.security.sasl/com.sun.security.sasl=ALL-UNNAMED -Di4j.vpt=true </args>
+<command>
+com.install4j.runtime.launcher.UnixLauncher run 9d17dc87 0 0 org.sonatype.nexus.karaf.NexusMain
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=17.0.12+7-LTS
+java.vm.name=OpenJDK 64-Bit Server VM
+jdk.debug=release
+sun.boot.library.path=/usr/lib/jvm/java-17-openjdk-17.0.12.0.7-2.el8.x86_64/lib
+java.library.path=/opt/sonatype/nexus/lib::/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+java.home=/usr/lib/jvm/java-17-openjdk-17.0.12.0.7-2.el8.x86_64
+java.class.path=/opt/sonatype/nexus/.install4j/i4jruntime.jar:/opt/sonatype/nexus/lib/boot/nexus-main.jar:/opt/sonatype/nexus/lib/boot/activation-1.1.jar:/opt/sonatype/nexus/lib/boot/jakarta.xml.bind-api-2.3.3.jar:/opt/sonatype/nexus/lib/boot/jaxb-runtime-2.3.3.jar:/opt/sonatype/nexus/lib/boot/txw2-2.3.3.jar:/opt/sonatype/nexus/lib/boot/istack-commons-runtime-3.0.10.jar:/opt/sonatype/nexus/lib/boot/org.apache.karaf.main-4.3.9.jar:/opt/sonatype/nexus/lib/boot/osgi.core-7.0.0.jar:/opt/sonatype/nexus/lib/boot/org.apache.karaf.specs.activator-4.3.9.jar:/opt/sonatype/nexus/lib/boot/org.apache.karaf.diagnostic.boot-4.3.9.jar:/opt/sonatype/nexus/lib/boot/org.apache.karaf.jaas.boot-4.3.9.jar
+jdk.boot.class.path.append=
+java.vm.info=mixed mode, sharing
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=17
+java.vm.vendor=Red Hat, Inc.
+install4j.jvmDir=/usr/lib/jvm/java-17-openjdk-17.0.12.0.7-2.el8.x86_64
+exe4j.moduleName=/opt/sonatype/nexus/bin/nexus
+install4j.launcherId=246
+install4j.swt=false
+i4jv=0
+java.util.prefs.userRoot=/nexus-data/javaprefs
+karaf.home=.
+karaf.base=.
+karaf.etc=etc/karaf
+java.util.logging.config.file=etc/karaf/java.util.logging.properties
+karaf.data=../sonatype-work/nexus3
+karaf.log=../sonatype-work/nexus3/log
+java.io.tmpdir=../sonatype-work/nexus3/tmp
+karaf.startLocalConsole=false
+jdk.tls.ephemeralDHKeySize=2048
+i4j.vpt=true
+sun.java.command=com.install4j.runtime.launcher.UnixLauncher run 9d17dc87 0 0 org.sonatype.nexus.karaf.NexusMain
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='319'/>
+<blob name='MethodHandlesAdapterBlob' size='4224'>
+<sect index='1' size='4224' free='3851'/>
+</blob>
+<dependency_failed type='leaf_type' ctxk='java/util/HashMap' witness='java/util/LinkedHashMap' stamp='0.647'/>
+<dependency_failed type='leaf_type' ctxk='java/util/HashMap' witness='java/util/LinkedHashMap' stamp='0.647'/>
+<dependency_failed type='leaf_type' ctxk='java/util/HashMap' witness='java/util/LinkedHashMap' stamp='0.647'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/concurrent/ConcurrentMap' x='java.util.concurrent.ConcurrentHashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/concurrent/ConcurrentMap' x3='java.util.concurrent.ConcurrentMap remove (Ljava/lang/Object;)Ljava/lang/Object;' witness='java/util/concurrent/ConcurrentMap' stamp='1.929'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/concurrent/ConcurrentMap' x='java.util.concurrent.ConcurrentHashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/concurrent/ConcurrentMap' x3='java.util.concurrent.ConcurrentMap remove (Ljava/lang/Object;)Ljava/lang/Object;' witness='java/util/concurrent/ConcurrentMap' stamp='1.929'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='1.976'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='1.976'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='1.976'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='1.976'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='1.976'/>
+<dependency_failed type='leaf_type' ctxk='java/util/jar/JarFile' witness='sun/net/www/protocol/jar/URLJarFile' stamp='1.976'/>
+<dependency_failed type='leaf_type' ctxk='org/apache/felix/framework/wiring/BundleCapabilityImpl' witness='org/apache/felix/framework/ServiceRegistrationImpl$ServiceReferenceImpl' stamp='2.348'/>
+<dependency_failed type='leaf_type' ctxk='org/apache/felix/framework/wiring/BundleCapabilityImpl' witness='org/apache/felix/framework/ServiceRegistrationImpl$ServiceReferenceImpl' stamp='2.348'/>
+<dependency_failed type='leaf_type' ctxk='org/apache/felix/framework/wiring/BundleCapabilityImpl' witness='org/apache/felix/framework/ServiceRegistrationImpl$ServiceReferenceImpl' stamp='2.348'/>
+<dependency_failed type='leaf_type' ctxk='org/apache/felix/framework/wiring/BundleCapabilityImpl' witness='org/apache/felix/framework/ServiceRegistrationImpl$ServiceReferenceImpl' stamp='2.348'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/net/URLStreamHandler' x='java.net.URLStreamHandler getDefaultPort ()I' x2='java/net/URLStreamHandler' x3='java.net.URLStreamHandler getDefaultPort ()I' witness='org/apache/felix/framework/URLHandlersStreamHandlerProxy' stamp='2.353'/>
+<dependency_failed type='no_finalizable_subclasses' ctxk='java/lang/Object' witness='org/apache/felix/framework/cache/JarContent' stamp='2.455'/>
+<dependency_failed type='no_finalizable_subclasses' ctxk='java/lang/Object' witness='org/apache/felix/framework/cache/JarContent' stamp='2.455'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='jdk/internal/loader/Resource' x='jdk.internal.loader.URLClassPath$JarLoader$2 getInputStream ()Ljava/io/InputStream;' x2='jdk/internal/loader/Resource' x3='jdk.internal.loader.Resource getInputStream ()Ljava/io/InputStream;' witness='jdk/internal/module/ModulePatcher$JarResourceFinder$1' stamp='4.531'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ByteArrayOutputStream' witness='sun/security/util/DerOutputStream' stamp='4.564'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ByteArrayOutputStream' witness='sun/security/util/DerOutputStream' stamp='4.566'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ByteArrayOutputStream' witness='sun/security/util/DerOutputStream' stamp='4.566'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ByteArrayOutputStream' witness='sun/security/util/DerOutputStream' stamp='4.566'/>
+<dependency_failed type='leaf_type' ctxk='java/security/cert/Certificate' witness='java/security/cert/X509Certificate' stamp='4.571'/>
+<writer thread='348'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/lang/ThreadLocal' x='java.lang.ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' x2='java/lang/ThreadLocal' x3='java.lang.ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='5.083'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/lang/ThreadLocal' x='java.lang.ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' x2='java/lang/ThreadLocal' x3='java.lang.ThreadLocal getMap (Ljava/lang/Thread;)Ljava/lang/ThreadLocal$ThreadLocalMap;' witness='java/lang/InheritableThreadLocal' stamp='5.083'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='5.887'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='5.887'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='5.887'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='5.887'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='5.887'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='5.887'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='5.887'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/lang/CharacterData' x='java/lang/CharacterDataLatin1' witness='java/lang/CharacterData00' stamp='5.887'/>
+<dependency_failed type='leaf_type' ctxk='java/util/WeakHashMap' witness='java/lang/ClassValue$ClassValueMap' stamp='5.952'/>
+<dependency_failed type='leaf_type' ctxk='java/util/WeakHashMap' witness='java/lang/ClassValue$ClassValueMap' stamp='5.952'/>
+<dependency_failed type='leaf_type' ctxk='java/util/WeakHashMap' witness='java/lang/ClassValue$ClassValueMap' stamp='5.952'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ConcurrentLinkedQueue' witness='org/apache/logging/log4j/status/StatusLogger$BoundedQueue' stamp='5.975'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.505'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.505'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.505'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.505'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.505'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.505'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.505'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList' witness='com/sun/istack/FinalArrayList' stamp='7.507'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/Properties' x='java.util.Properties getProperty (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;' x2='java/util/Properties' x3='java.util.Properties getProperty (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;' witness='org/apache/karaf/features/internal/service/FeaturesProcessingSerializer$1' stamp='7.695'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/util/NamespaceSupport' witness='com/sun/org/apache/xerces/internal/impl/xs/SchemaNamespaceSupport' stamp='8.122'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/xni/QName' witness='com/sun/org/apache/xerces/internal/impl/dv/xs/QNameDV$XQName' stamp='8.126'/>
+<dependency_failed type='leaf_type' ctxk='com/sun/org/apache/xerces/internal/xni/QName' witness='com/sun/org/apache/xerces/internal/impl/dv/xs/QNameDV$XQName' stamp='8.126'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='8.171'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='8.171'/>
+<dependency_failed type='leaf_type' ctxk='java/util/ArrayList$Itr' witness='java/util/ArrayList$ListItr' stamp='8.171'/>
+<writer thread='381'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ThreadPoolExecutor' witness='java/util/concurrent/ScheduledThreadPoolExecutor' stamp='8.665'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/ThreadPoolExecutor' witness='java/util/concurrent/ScheduledThreadPoolExecutor' stamp='8.665'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='org/osgi/service/resolver/ResolveContext' x='org.apache.felix.framework.ResolveContextImpl getWirings ()Ljava/util/Map;' x2='org/osgi/service/resolver/ResolveContext' x3='org.osgi.service.resolver.ResolveContext getWirings ()Ljava/util/Map;' witness='org/apache/karaf/features/internal/region/SubsystemResolveContext' stamp='8.697'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='org/osgi/service/resolver/ResolveContext' x='org.apache.felix.framework.ResolveContextImpl getWirings ()Ljava/util/Map;' x2='org/osgi/service/resolver/ResolveContext' x3='org.osgi.service.resolver.ResolveContext getWirings ()Ljava/util/Map;' witness='org/apache/karaf/features/internal/region/SubsystemResolveContext' stamp='8.697'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='org/osgi/service/resolver/ResolveContext' x='org.apache.felix.framework.ResolveContextImpl getWirings ()Ljava/util/Map;' x2='org/osgi/service/resolver/ResolveContext' x3='org.osgi.service.resolver.ResolveContext getWirings ()Ljava/util/Map;' witness='org/apache/karaf/features/internal/region/SubsystemResolveContext' stamp='8.697'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='org/osgi/service/resolver/ResolveContext' x='org.apache.felix.framework.ResolveContextImpl getWirings ()Ljava/util/Map;' x2='org/osgi/service/resolver/ResolveContext' x3='org.osgi.service.resolver.ResolveContext getWirings ()Ljava/util/Map;' witness='org/apache/karaf/features/internal/region/SubsystemResolveContext' stamp='8.697'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='org/osgi/service/resolver/ResolveContext' x='org.apache.felix.framework.ResolveContextImpl isEffective (Lorg/osgi/resource/Requirement;)Z' x2='org/osgi/service/resolver/ResolveContext' x3='org.osgi.service.resolver.ResolveContext isEffective (Lorg/osgi/resource/Requirement;)Z' witness='org/apache/karaf/features/internal/region/SubsystemResolveContext' stamp='8.697'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='org/osgi/service/resolver/ResolveContext' x='org.apache.felix.framework.ResolveContextImpl getWirings ()Ljava/util/Map;' x2='org/osgi/service/resolver/ResolveContext' x3='org.osgi.service.resolver.ResolveContext getWirings ()Ljava/util/Map;' witness='org/apache/karaf/features/internal/region/SubsystemResolveContext' stamp='8.697'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='8.775'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='8.775'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='8.776'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/FutureTask' witness='java/util/concurrent/ScheduledThreadPoolExecutor$ScheduledFutureTask' stamp='8.776'/>
+<writer thread='384'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/concurrent/RejectedExecutionHandler' x='java.util.concurrent.ThreadPoolExecutor$AbortPolicy rejectedExecution (Ljava/lang/Runnable;Ljava/util/concurrent/ThreadPoolExecutor;)V' x2='java/util/concurrent/RejectedExecutionHandler' x3='java.util.concurrent.RejectedExecutionHandler rejectedExecution (Ljava/lang/Runnable;Ljava/util/concurrent/ThreadPoolExecutor;)V' witness='java/util/concurrent/RejectedExecutionHandler' stamp='9.004'/>
+<dependency_failed type='leaf_type' ctxk='java/util/AbstractMap$SimpleImmutableEntry' witness='aQute/bnd/unmodifiable/ImmutableEntry' stamp='9.049'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/stream/AbstractPipeline' x='java.util.stream.AbstractPipeline opEvaluateParallel (Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;Ljava/util/function/IntFunction;)Ljava/util/stream/Node;' x2='java/util/stream/AbstractPipeline' x3='java.util.stream.AbstractPipeline opEvaluateParallel (Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;Ljava/util/function/IntFunction;)Ljava/util/stream/Node;' witness='java/util/stream/SortedOps$OfRef' stamp='9.077'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/lang/ClassLoader' x='java.lang.ClassLoader loadClass (Ljava/lang/String;)Ljava/lang/Class;' x2='java/lang/ClassLoader' x3='java.lang.ClassLoader loadClass (Ljava/lang/String;)Ljava/lang/Class;' witness='aQute/bnd/osgi/ActivelyClosingClassLoader' stamp='9.181'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/stream/AbstractPipeline' x='java.util.stream.AbstractPipeline opEvaluateParallelLazy (Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;)Ljava/util/Spliterator;' x2='java/util/stream/AbstractPipeline' x3='java.util.stream.AbstractPipeline opEvaluateParallelLazy (Ljava/util/stream/PipelineHelper;Ljava/util/Spliterator;)Ljava/util/Spliterator;' witness='java/util/stream/DistinctOps$1' stamp='9.199'/>
+<writer thread='348'/>
+<dependency_failed type='leaf_type' ctxk='org/osgi/framework/ServiceEvent' witness='org/apache/felix/scr/impl/manager/ExtendedServiceEvent' stamp='10.278'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='com/sun/xml/internal/stream/Entity' x='com.sun.xml.internal.stream.Entity$ScannedEntity isExternal ()Z' x2='com/sun/xml/internal/stream/Entity' x3='com.sun.xml.internal.stream.Entity isExternal ()Z' witness='com/sun/xml/internal/stream/Entity$InternalEntity' stamp='10.858'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicLong' witness='org/eclipse/jetty/util/AtomicBiInteger' stamp='10.901'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicLong' witness='org/eclipse/jetty/util/AtomicBiInteger' stamp='10.901'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicLong' witness='org/eclipse/jetty/util/AtomicBiInteger' stamp='10.901'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/lang/Throwable' x='java.lang.Throwable toString ()Ljava/lang/String;' x2='java/lang/Throwable' x3='java.lang.Throwable toString ()Ljava/lang/String;' witness='org/eclipse/jetty/util/MultiException' stamp='10.910'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/Map' x3='java.util.Map put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.009'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.011'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap remove (Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.012'/>
+<writer thread='331'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' witness='org/eclipse/jetty/http/PathMap' stamp='11.041'/>
+<writer thread='348'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/nio/channels/WritableByteChannel' x='java.nio.channels.spi.AbstractInterruptibleChannel close ()V' x2='java/nio/channels/WritableByteChannel' x3='java.lang.AutoCloseable close ()V' witness='java/nio/channels/WritableByteChannel' stamp='11.136'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/nio/channels/WritableByteChannel' x='sun.nio.ch.FileChannelImpl write (Ljava/nio/ByteBuffer;)I' x2='java/nio/channels/WritableByteChannel' x3='java.nio.channels.WritableByteChannel write (Ljava/nio/ByteBuffer;)I' witness='java/nio/channels/WritableByteChannel' stamp='11.136'/>
+<writer thread='436'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.193'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.193'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.193'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.193'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.193'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.193'/>
+<dependency_failed type='leaf_type' ctxk='java/util/StringTokenizer' witness='org/eclipse/jetty/util/QuotedStringTokenizer' stamp='11.193'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.201'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.201'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.201'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.201'/>
+<dependency_failed type='leaf_type' ctxk='java/nio/HeapByteBuffer' witness='java/nio/HeapByteBufferR' stamp='11.201'/>
+<dependency_failed type='leaf_type' ctxk='java/util/LinkedHashMap' witness='org/eclipse/jetty/util/MultiMap' stamp='11.296'/>
+<dependency_failed type='leaf_type' ctxk='java/util/LinkedHashMap' witness='org/eclipse/jetty/util/MultiMap' stamp='11.296'/>
+<dependency_failed type='leaf_type' ctxk='java/util/LinkedHashMap' witness='org/eclipse/jetty/util/MultiMap' stamp='11.296'/>
+<dependency_failed type='leaf_type' ctxk='java/util/LinkedHashMap' witness='org/eclipse/jetty/util/MultiMap' stamp='11.296'/>
+<dependency_failed type='leaf_type' ctxk='java/util/LinkedHashMap' witness='org/eclipse/jetty/util/MultiMap' stamp='11.296'/>
+<dependency_failed type='leaf_type' ctxk='java/io/ObjectInputStream' witness='org/h2/util/JdbcUtils$1' stamp='31.485'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/lang/Throwable' x='java.lang.Throwable printStackTrace (Ljava/io/PrintStream;)V' x2='java/lang/Throwable' x3='java.lang.Throwable printStackTrace (Ljava/io/PrintStream;)V' witness='org/h2/jdbc/JdbcSQLSyntaxErrorException' stamp='31.528'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/lang/Throwable' x='java.lang.Throwable printStackTrace (Ljava/io/PrintStream;)V' x2='java/lang/Throwable' x3='java.lang.Throwable printStackTrace (Ljava/io/PrintStream;)V' witness='org/h2/jdbc/JdbcSQLSyntaxErrorException' stamp='31.529'/>
+<writer thread='337'/>
+<dependency_failed type='leaf_type' ctxk='org/xml/sax/helpers/AttributesImpl' witness='com/sun/org/apache/xml/internal/serializer/AttributesImplSerializer' stamp='31.711'/>
+<dependency_failed type='leaf_type' ctxk='org/xml/sax/helpers/AttributesImpl' witness='com/sun/org/apache/xml/internal/serializer/AttributesImplSerializer' stamp='31.711'/>
+<writer thread='436'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/concurrent/Future' x='java.util.concurrent.FutureTask isDone ()Z' x2='java/util/concurrent/Future' x3='java.util.concurrent.Future isDone ()Z' witness='java/util/concurrent/Future' stamp='31.934'/>
+<writer thread='332'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='com/google/common/collect/ImmutableSet' x='com.google.common.collect.RegularImmutableSet contains (Ljava/lang/Object;)Z' x2='com/google/common/collect/ImmutableSet' x3='com.google.common.collect.ImmutableCollection contains (Ljava/lang/Object;)Z' witness='com/google/common/collect/SingletonImmutableSet' stamp='32.030'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='com/google/common/collect/ImmutableSet' x='com.google.common.collect.RegularImmutableSet contains (Ljava/lang/Object;)Z' x2='com/google/common/collect/ImmutableSet' x3='com.google.common.collect.ImmutableCollection contains (Ljava/lang/Object;)Z' witness='com/google/common/collect/SingletonImmutableSet' stamp='32.030'/>
+<writer thread='436'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap size ()I' x2='java/util/HashMap' x3='java.util.HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.055'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap size ()I' x2='java/util/HashMap' x3='java.util.HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.055'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap containsKey (Ljava/lang/Object;)Z' x2='java/util/HashMap' x3='java.util.HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.055'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap isEmpty ()Z' x2='java/util/HashMap' x3='java.util.HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.055'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap isEmpty ()Z' x2='java/util/HashMap' x3='java.util.HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.055'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap containsKey (Ljava/lang/Object;)Z' x2='java/util/HashMap' x3='java.util.HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.055'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap isEmpty ()Z' x2='java/util/HashMap' x3='java.util.HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.055'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap containsKey (Ljava/lang/Object;)Z' x2='java/util/HashMap' x3='java.util.HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.055'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap size ()I' x2='java/util/HashMap' x3='java.util.HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.055'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap isEmpty ()Z' x2='java/util/HashMap' x3='java.util.HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.055'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap containsKey (Ljava/lang/Object;)Z' x2='java/util/HashMap' x3='java.util.HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.056'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap containsKey (Ljava/lang/Object;)Z' x2='java/util/HashMap' x3='java.util.HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.056'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap containsKey (Ljava/lang/Object;)Z' x2='java/util/HashMap' x3='java.util.HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.056'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap size ()I' x2='java/util/HashMap' x3='java.util.HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.056'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap containsKey (Ljava/lang/Object;)Z' x2='java/util/HashMap' x3='java.util.HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.056'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap clone ()Ljava/lang/Object;' x2='java/util/HashMap' x3='java.util.HashMap clone ()Ljava/lang/Object;' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.056'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap size ()I' x2='java/util/HashMap' x3='java.util.HashMap size ()I' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.056'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap containsKey (Ljava/lang/Object;)Z' x2='java/util/HashMap' x3='java.util.HashMap containsKey (Ljava/lang/Object;)Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.056'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/HashMap' x='java.util.HashMap isEmpty ()Z' x2='java/util/HashMap' x3='java.util.HashMap isEmpty ()Z' witness='org/apache/commons/beanutils/WeakFastHashMap' stamp='32.056'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Date' stamp='32.072'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Date' stamp='32.072'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Date' stamp='32.072'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Date' stamp='32.072'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Date' stamp='32.072'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Date' stamp='32.072'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Date' stamp='32.072'/>
+<dependency_failed type='leaf_type' ctxk='java/util/Date' witness='java/sql/Date' stamp='32.072'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='32.223'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='32.223'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='32.223'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='32.223'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='32.223'/>
+<dependency_failed type='leaf_type' ctxk='java/util/concurrent/atomic/AtomicReference' witness='org/eclipse/sisu/inject/RankedSequence' stamp='32.223'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='com/google/common/collect/AbstractIndexedListIterator' x='com.google.common.collect.Iterators$ArrayItr get (I)Ljava/lang/Object;' x2='com/google/common/collect/AbstractIndexedListIterator' x3='com.google.common.collect.AbstractIndexedListIterator get (I)Ljava/lang/Object;' witness='com/google/common/collect/FluentIterable$3$1' stamp='32.249'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/lang/reflect/WildcardType' x='com.google.inject.internal.MoreTypes$WildcardTypeImpl getUpperBounds ()[Ljava/lang/reflect/Type;' x2='java/lang/reflect/WildcardType' x3='java.lang.reflect.WildcardType getUpperBounds ()[Ljava/lang/reflect/Type;' witness='java/lang/reflect/WildcardType' stamp='32.399'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/lang/reflect/WildcardType' x='com.google.inject.internal.MoreTypes$WildcardTypeImpl getLowerBounds ()[Ljava/lang/reflect/Type;' x2='java/lang/reflect/WildcardType' x3='java.lang.reflect.WildcardType getLowerBounds ()[Ljava/lang/reflect/Type;' witness='java/lang/reflect/WildcardType' stamp='32.399'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/lang/reflect/WildcardType' x='com.google.inject.internal.MoreTypes$WildcardTypeImpl getUpperBounds ()[Ljava/lang/reflect/Type;' x2='java/lang/reflect/WildcardType' x3='java.lang.reflect.WildcardType getUpperBounds ()[Ljava/lang/reflect/Type;' witness='java/lang/reflect/WildcardType' stamp='32.399'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/AbstractSequentialList' x='java/util/LinkedList' witness='org/eclipse/sisu/wire/EntryListAdapter' stamp='32.549'/>
+<dependency_failed type='abstract_with_unique_concrete_subtype' ctxk='java/util/AbstractSequentialList' x='java/util/LinkedList' witness='org/eclipse/sisu/wire/EntryListAdapter' stamp='32.549'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/AbstractSequentialList' x='java.util.LinkedList listIterator (I)Ljava/util/ListIterator;' x2='java/util/AbstractList' x3='java.util.AbstractList listIterator (I)Ljava/util/ListIterator;' witness='org/eclipse/sisu/wire/EntryListAdapter' stamp='32.550'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/lang/reflect/TypeVariable' x='sun.reflect.generics.reflectiveObjects.TypeVariableImpl getGenericDeclaration ()Ljava/lang/reflect/GenericDeclaration;' x2='java/lang/reflect/TypeVariable' x3='java.lang.reflect.TypeVariable getGenericDeclaration ()Ljava/lang/reflect/GenericDeclaration;' witness='java/lang/reflect/TypeVariable' stamp='32.919'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/LinkedHashMap' x='java.util.LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z' x2='java/util/LinkedHashMap' x3='java.util.LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z' witness='com/fasterxml/classmate/util/LRUTypeCache$CacheMap' stamp='33.049'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='java/util/LinkedHashMap' x='java.util.LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z' x2='java/util/LinkedHashMap' x3='java.util.LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z' witness='com/fasterxml/classmate/util/LRUTypeCache$CacheMap' stamp='33.049'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='com/google/inject/Binding' x='com.google.inject.internal.BindingImpl getKey ()Lcom/google/inject/Key;' x2='com/google/inject/Binding' x3='com.google.inject.Binding getKey ()Lcom/google/inject/Key;' witness='com/google/inject/Binding' stamp='35.206'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='com/google/inject/Binding' x='com.google.inject.internal.BindingImpl getKey ()Lcom/google/inject/Key;' x2='com/google/inject/Binding' x3='com.google.inject.Binding getKey ()Lcom/google/inject/Key;' witness='com/google/inject/Binding' stamp='35.206'/>
+<dependency_failed type='unique_concrete_method_4' ctxk='com/google/inject/Binding' x='com.google.inject.internal.BindingImpl getSource ()Ljava/lang/Object;' x2='com/google/inject/Binding' x3='com.google.inject.spi.Element getSource ()Ljava/lang/Object;' witnes

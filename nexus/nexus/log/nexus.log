@@ -1,0 +1,116 @@
+2024-08-20 19:44:12,983+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.pax.logging.NexusLogActivator - start
+2024-08-20 19:44:13,736+0800 WARN  [FelixStartLevel]  *SYSTEM javax.xml.bind - Using non-standard property: javax.xml.bind.JAXBContext. Property javax.xml.bind.JAXBContextFactory should be used instead.
+2024-08-20 19:44:14,152+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.features.internal.FeaturesWrapper - Fast FeaturesService starting
+2024-08-20 19:44:14,400+0800 WARN  [FelixStartLevel]  *SYSTEM javax.xml.bind - Using non-standard property: javax.xml.bind.JAXBContext. Property javax.xml.bind.JAXBContextFactory should be used instead.
+2024-08-20 19:44:16,656+0800 INFO  [FelixStartLevel]  *SYSTEM ROOT - bundle org.apache.felix.scr:2.1.30 (56) Starting with globalExtender setting: false
+2024-08-20 19:44:16,667+0800 INFO  [FelixStartLevel]  *SYSTEM ROOT - bundle org.apache.felix.scr:2.1.30 (56)  Version = 2.1.30
+2024-08-20 19:44:17,159+0800 WARN  [FelixStartLevel]  *SYSTEM uk.org.lidalia.sysoutslf4j.context.SysOutOverSLF4JInitialiser - Your logging framework class org.ops4j.pax.logging.slf4j.Slf4jLogger is not known - if it needs access to the standard println methods on the console you will need to register it by calling registerLoggingSystemPackage
+2024-08-20 19:44:17,161+0800 INFO  [FelixStartLevel]  *SYSTEM uk.org.lidalia.sysoutslf4j.context.SysOutOverSLF4J - Package org.ops4j.pax.logging.slf4j registered; all classes within it or subpackages of it will be allowed to print to System.out and System.err
+2024-08-20 19:44:17,171+0800 INFO  [FelixStartLevel]  *SYSTEM uk.org.lidalia.sysoutslf4j.context.SysOutOverSLF4J - Replaced standard System.out and System.err PrintStreams with SLF4JPrintStreams
+2024-08-20 19:44:17,175+0800 INFO  [FelixStartLevel]  *SYSTEM uk.org.lidalia.sysoutslf4j.context.SysOutOverSLF4J - Redirected System.out and System.err to SLF4J for this context
+2024-08-20 19:44:17,196+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder - Properties:
+2024-08-20 19:44:17,199+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   application-host='0.0.0.0'
+2024-08-20 19:44:17,200+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   application-port='8081'
+2024-08-20 19:44:17,201+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   fabric.etc='/opt/sonatype/nexus/etc/fabric'
+2024-08-20 19:44:17,203+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   jetty.etc='/opt/sonatype/nexus/etc/jetty'
+2024-08-20 19:44:17,204+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.base='/opt/sonatype/nexus'
+2024-08-20 19:44:17,206+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.data='/nexus-data'
+2024-08-20 19:44:17,207+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.etc='/opt/sonatype/nexus/etc/karaf'
+2024-08-20 19:44:17,208+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.home='/opt/sonatype/nexus'
+2024-08-20 19:44:17,210+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   karaf.instances='/nexus-data/instances'
+2024-08-20 19:44:17,211+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   logback.etc='/opt/sonatype/nexus/etc/logback'
+2024-08-20 19:44:17,212+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-args='/opt/sonatype/nexus/etc/jetty/jetty.xml,/opt/sonatype/nexus/etc/jetty/jetty-http.xml,/opt/sonatype/nexus/etc/jetty/jetty-requestlog.xml'
+2024-08-20 19:44:17,214+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-context-path='/'
+2024-08-20 19:44:17,215+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-edition='nexus-pro-edition'
+2024-08-20 19:44:17,216+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   nexus-features='nexus-pro-feature'
+2024-08-20 19:44:17,217+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.ConfigurationBuilder -   ssl.etc='/opt/sonatype/nexus/etc/ssl'
+2024-08-20 19:44:17,219+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.Launcher - Java: 17.0.12, OpenJDK 64-Bit Server VM, Red Hat, Inc., 17.0.12+7-LTS
+2024-08-20 19:44:17,220+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.Launcher - OS: Linux, 5.10.25-linuxkit, amd64
+2024-08-20 19:44:17,221+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.Launcher - User: nexus, en, /opt/sonatype/nexus
+2024-08-20 19:44:17,222+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.Launcher - CWD: /opt/sonatype/nexus
+2024-08-20 19:44:17,228+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.Launcher - TMP: /nexus-data/tmp
+2024-08-20 19:44:17,233+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Starting
+2024-08-20 19:44:17,255+0800 INFO  [FelixStartLevel]  *SYSTEM org.eclipse.jetty.util.log - Logging initialized @10819ms to org.eclipse.jetty.util.log.Slf4jLog
+2024-08-20 19:44:17,268+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Applying configuration: file:/opt/sonatype/nexus/etc/jetty/jetty.xml
+2024-08-20 19:44:17,506+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Applying configuration: file:/opt/sonatype/nexus/etc/jetty/jetty-http.xml
+2024-08-20 19:44:17,557+0800 INFO  [FelixStartLevel]  *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Applying configuration: file:/opt/sonatype/nexus/etc/jetty/jetty-requestlog.xml
+2024-08-20 19:44:17,582+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.bootstrap.jetty.JettyServer - Starting: Server@68bc7ec6{STOPPED}[9.4.53.v20231009]
+2024-08-20 19:44:17,589+0800 INFO  [jetty-main-1]  *SYSTEM org.eclipse.jetty.server.Server - jetty-9.4.53.v20231009; built: 2023-10-09T12:29:09.265Z; git: 27bde00a0b95a1d5bbee0eae7984f891d2d0f8c9; jvm 17.0.12+7-LTS
+2024-08-20 19:44:17,688+0800 INFO  [jetty-main-1]  *SYSTEM org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2024-08-20 19:44:17,689+0800 INFO  [jetty-main-1]  *SYSTEM org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2024-08-20 19:44:17,691+0800 INFO  [jetty-main-1]  *SYSTEM org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+2024-08-20 19:44:17,704+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Initializing
+2024-08-20 19:44:17,726+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.bootstrap.osgi.OssNexusEdition - Loading OSS Edition
+2024-08-20 19:44:17,729+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Installing: nexus-oss-edition/3.71.0.06 (nexus-datastore-mybatis/3.71.0.06)
+2024-08-20 19:44:36,117+0800 INFO  [jetty-main-1]  *SYSTEM org.ehcache.core.osgi.EhcacheActivator - Detected OSGi Environment (core is in bundle: org.ehcache [153]): Using OSGi Based Service Loading
+2024-08-20 19:44:37,996+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.bootstrap.osgi.BootstrapListener - Installed: nexus-oss-edition/3.71.0.06 (nexus-datastore-mybatis/3.71.0.06)
+2024-08-20 19:44:38,935+0800 INFO  [jetty-main-1]  *SYSTEM org.apache.shiro.nexus.NexusWebSessionManager - Global session timeout: 1800000 ms
+2024-08-20 19:44:38,936+0800 INFO  [jetty-main-1]  *SYSTEM org.apache.shiro.nexus.NexusWebSessionManager - Session-cookie prototype: name=NXSESSIONID, secure=true
+2024-08-20 19:44:38,997+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.common [3.71.0.06]
+2024-08-20 19:44:39,205+0800 INFO  [jetty-main-1]  *SYSTEM org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.2.0.Final
+2024-08-20 19:44:39,585+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.common [3.71.0.06]
+2024-08-20 19:44:39,587+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.hibernate.validator [6.2.0.Final]
+2024-08-20 19:44:39,664+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.hibernate.validator [6.2.0.Final]
+2024-08-20 19:44:39,669+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.blobstore-api [3.71.0.06]
+2024-08-20 19:44:39,708+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.blobstore-api [3.71.0.06]
+2024-08-20 19:44:39,712+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.cache [3.71.0.06]
+2024-08-20 19:44:39,767+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.cache [3.71.0.06]
+2024-08-20 19:44:39,771+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.jmx [3.71.0.06]
+2024-08-20 19:44:39,807+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.jmx [3.71.0.06]
+2024-08-20 19:44:39,811+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.crypto [3.71.0.06]
+2024-08-20 19:44:39,942+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.crypto [3.71.0.06]
+2024-08-20 19:44:39,945+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.security [3.71.0.06]
+2024-08-20 19:44:40,930+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.security [3.71.0.06]
+2024-08-20 19:44:40,932+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.datastore [3.71.0.06]
+2024-08-20 19:44:41,002+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.datastore [3.71.0.06]
+2024-08-20 19:44:41,004+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.supportzip-api [3.71.0.06]
+2024-08-20 19:44:41,068+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.supportzip-api [3.71.0.06]
+2024-08-20 19:44:41,070+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.thread [3.71.0.06]
+2024-08-20 19:44:41,100+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.thread [3.71.0.06]
+2024-08-20 19:44:41,102+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.scheduling [3.71.0.06]
+2024-08-20 19:44:41,200+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.scheduling [3.71.0.06]
+2024-08-20 19:44:41,202+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.blobstore [3.71.0.06]
+2024-08-20 19:44:41,310+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.blobstore [3.71.0.06]
+2024-08-20 19:44:41,312+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.apache.tika.core [1.28.4]
+2024-08-20 19:44:41,350+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.apache.tika.core [1.28.4]
+2024-08-20 19:44:41,355+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.upgrade [3.71.0.06]
+2024-08-20 19:44:41,424+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.upgrade [3.71.0.06]
+2024-08-20 19:44:41,426+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.blobstore-file [3.71.0.06]
+2024-08-20 19:44:41,524+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.blobstore-file [3.71.0.06]
+2024-08-20 19:44:41,527+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.capability [3.71.0.06]
+2024-08-20 19:44:41,588+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.capability [3.71.0.06]
+2024-08-20 19:44:41,590+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.commands [3.71.0.06]
+2024-08-20 19:44:41,612+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.commands [3.71.0.06]
+2024-08-20 19:44:41,614+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.email [3.71.0.06]
+2024-08-20 19:44:41,637+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.email [3.71.0.06]
+2024-08-20 19:44:41,639+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.httpclient [3.71.0.06]
+2024-08-20 19:44:41,668+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.httpclient [3.71.0.06]
+2024-08-20 19:44:41,670+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.servlet [3.71.0.06]
+2024-08-20 19:44:41,693+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.servlet [3.71.0.06]
+2024-08-20 19:44:41,696+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.ssl [3.71.0.06]
+2024-08-20 19:44:41,725+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.ssl [3.71.0.06]
+2024-08-20 19:44:41,727+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.base [3.71.0.06]
+2024-08-20 19:44:42,106+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.internal.metrics.MetricsModule - Metrics support configured
+2024-08-20 19:44:42,138+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.internal.metrics.MetricsModule - Metrics support configured
+2024-08-20 19:44:42,498+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.base [3.71.0.06]
+2024-08-20 19:44:42,500+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.extdirect [3.71.0.06]
+2024-08-20 19:44:42,732+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.extdirect [3.71.0.06]
+2024-08-20 19:44:42,737+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.siesta [3.71.0.06]
+2024-08-20 19:44:42,892+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.siesta [3.71.0.06]
+2024-08-20 19:44:42,893+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.rest-jackson2 [3.71.0.06]
+2024-08-20 19:44:42,909+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.rest-jackson2 [3.71.0.06]
+2024-08-20 19:44:42,912+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.swagger [3.71.0.06]
+2024-08-20 19:44:42,956+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.swagger [3.71.0.06]
+2024-08-20 19:44:42,959+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.rapture [3.71.0.06]
+2024-08-20 19:44:43,165+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.rapture [3.71.0.06]
+2024-08-20 19:44:43,167+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.datastore-mybatis [3.71.0.06]
+2024-08-20 19:44:43,226+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.datastore-mybatis [3.71.0.06]
+2024-08-20 19:44:43,228+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.quartz [3.71.0.06]
+2024-08-20 19:44:43,313+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.quartz [3.71.0.06]
+2024-08-20 19:44:43,314+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATING org.sonatype.nexus.oss-edition [3.71.0.06]
+2024-08-20 19:44:43,328+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusBundleTracker - ACTIVATED org.sonatype.nexus.oss-edition [3.71.0.06]
+2024-08-20 19:44:43,331+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusContextListener - Running lifecycle phases [KERNEL, STORAGE, RESTORE, UPGRADE, SCHEMAS, EVENTS, SECURITY, SERVICES, REPOSITORIES, CAPABILITIES, TASKS]
+2024-08-20 19:44:43,333+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusLifecycleManager - Start KERNEL
+2024-08-20 19:44:43,342+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.internal.log.overrides.file.LogbackLoggerOverrides - File: /nexus-data/etc/logback/logback-overrides.xml
+2024-08-20 19:44:43,345+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.internal.log.LogbackLogManager - Configuring
+2024-08-20 19:44:43,371+0800 INFO  [jetty-main-1]  *SYSTEM org.sonatype.nexus.extender.NexusContextListener - Installing: [nexus-oss-feature/3.71.0.06, nexus-datastore-mybatis/3.71.0.06, nexus-ossindex-plugin/3.71.0.06]
